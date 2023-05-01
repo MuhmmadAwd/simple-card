@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: sans-serif;
+}
+.card{
+    width: 500px;
+    margin: auto;
+    padding-block: 30px;
+    background-color: #23252C;
+    min-height: 100vh;
+}
+.container{
+    width: 300px;
+    margin: auto;
+    background-color: #f5f4f4;
+
+}
+.Info{
+    text-align: center;
+}
+.card__role{
+    color: #525050;
+    font-weight: 400;
+}
+.btn{
+    height: 34px;
+    width: 115px;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+}
+.cta-icon{
+    margin: -1px 5px;
+}
+.btn--primary{
+    background-color: #fff;
+}
+.btn--accent{
+color: #fff;
+background-color: #297FE5;
+}
+.About,.Interests{
+    padding-left: 2rem;
+}
+img{
+    max-width: 100%;
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+footer{
+    padding: 2px 0;
+    background-color: #D5D4D8;
+}
+.social-icon{
+    padding-inline:10px;
+}
